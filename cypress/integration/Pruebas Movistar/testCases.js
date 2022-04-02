@@ -12,6 +12,10 @@ describe('Tests Ejercicios Movistar', function () {
         IndexPageMovistar.home();
     })
 
+    afterEach(function(){
+        cy.screenshot();
+    })
+
     //Ejercicio 1
     it("Validar cuotas en compra de equipo -Cuotas.12 -Equipo.A52", function () {
 
@@ -25,9 +29,7 @@ describe('Tests Ejercicios Movistar', function () {
     it("Aplicar filtro de equipos -Gama.Alta -Memoria Interna.256GB", function () {
 
         IndexPageMovistar.filterByPrice();
-        cy.wait(2500)
         IndexPageMovistar.filterByMemory();
-        cy.wait(2500)
         IndexPageMovistar.assertNumberOfDevices();
 
     })

@@ -1,4 +1,19 @@
 {
-    "url":"https://tienda.movistar.com.ar"
+    "url":"https://tienda.movistar.com.ar",
 
+    "searchButtonId" : "#search_mini_form > .actions",
+    "searchBoxId": "#search",
+    "search" : ".action.search",
+    "filtersMenuId" : "#layered-filter-block > .block-title > strong",
+    "filterPrice100_200k" : " [attribute='price'] > .filter-options-content > .items > :nth-child(2) > a ",
+    "filterMemory256" : "[attribute='movistar_internalmemory'] > .filter-options-content > .items > :nth-child(2) > a",
+    "productListClass" : ".products.list.items.product-items",
+    "installmentsTextId" : "#installments-text",
+    "toolbarNumberClass" : ".toolbar-number",
+    "installmentsMenuId": "#open-installments-modal",
+    "bankSelectorId" : "#selectBank",
+    "cardBankSelectorId" : "#selectCardByBank",
+    "installmentTableId" : "#bodyTable",
+    "buyButtonId" : "#movistar-pdp-addtocart-button",
+    "removeButtonId" : ".actions-toolbar > .action"
 }
